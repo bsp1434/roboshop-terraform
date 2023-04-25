@@ -14,7 +14,7 @@ resource "aws_instance" "frontend" {
   }
 
 resource "aws_route53_record" "frontend" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "frontend.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -34,7 +34,7 @@ resource "aws_route53_record" "frontend" {
     }
 
 resource "aws_route53_record" "mongodb" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "mongodb.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -52,7 +52,7 @@ resource "aws_route53_record" "mongodb" {
       }
 
 resource "aws_route53_record" "catalogue" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "catalogue.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -71,7 +71,7 @@ resource "aws_route53_record" "catalogue" {
         }
 
 resource "aws_route53_record" "redis" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "redis.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -92,7 +92,7 @@ resource "aws_route53_record" "redis" {
 
 
 resource "aws_route53_record" "user" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "user.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -112,7 +112,7 @@ resource "aws_route53_record" "user" {
             }
 
 resource "aws_route53_record" "cart" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "cart.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -133,7 +133,7 @@ resource "aws_route53_record" "cart" {
               }
 
 resource "aws_route53_record" "mysql" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "mysql.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -153,7 +153,7 @@ resource "aws_route53_record" "mysql" {
                 }
 
 resource "aws_route53_record" "shipping" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "shipping.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -173,7 +173,7 @@ resource "aws_route53_record" "shipping" {
                   }
 
 resource "aws_route53_record" "rabbitmq" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "rabbitmq.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -193,7 +193,7 @@ resource "aws_route53_record" "rabbitmq" {
                     }
 
 resource "aws_route53_record" "payment" {
-  zone_id = Z1043008MQE84RQ5Z5GI
+  zone_id = "Z1043008MQE84RQ5Z5GI"
   name    = "payment.devopspractice72.online"
   type    = "A"
   ttl     = 30
@@ -213,7 +213,7 @@ resource "aws_route53_record" "payment" {
                       }
 
  resource "aws_route53_record" "dispatch" {
-   zone_id = Z1043008MQE84RQ5Z5GI
+   zone_id = "Z1043008MQE84RQ5Z5GI"
    name    = "dispatch.devopspractice72.online"
    type    = "A"
    ttl     = 30
